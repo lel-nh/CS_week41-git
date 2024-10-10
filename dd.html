@@ -12,25 +12,18 @@
         const connection = new WebSocket('ws://10.1.224.108:81/');
         connection.onopen = function () {
             control('Connected to WebSocket');
-            
         };
-
         function control(command) {
             const message = { command: command }; // Commande envoyée à l'ESP8266
             connection.send(JSON.stringify(message));
-        
-            if (command === 'Connected to WebSocket') {
-                const action = document.getElementById('action');
-                action.style.visibility = 'visible';
-                const connec = document.getElementById('connec');
-                connec.innerHTML = "<a>it's connected !</a><br><a>turn the motor</a>"
-            }
+           
         }
         connection.onmessage = function (event) {
             const data = JSON.parse(event.data); // Analyser le message JSON
             const temperature = data.temperature; // Obtenir la température
             document.getElementById("temperature").innerText = temperature.toFixed(2) + " ºC"; // Afficher la température
-        };  
+        };
+        
     </script>
 </head>
 <body>
@@ -42,13 +35,14 @@
         <h1>control center</h1>
         </div>
       <div class="lower" id="lower">
-            <a id="connec" class="connec">
+            <h2 id="connec">
             Connection to ESP8266 . . .
-            </a>  
-            
+            </h2>  
             <div class="action" id="action">
-                
-            <button onclick="control('FORWARD')" class="btnTurn" id="btnTurn"> <img src="/rotate_left.png" alt="Logo" class="logo"></a>
+                <h2>it's connected !</h2>
+                <br>
+                <h2>turn the motor</h2>
+            <button onclick="control('FORWARD')" class="btnTurn" id="btnTurn"> <img src="/rotate_left.svg" alt="Logo" class="logo"></a>
             <button onclick="control('STOP')" class="btnStop">stop</a>
         </div>
         <h2 class="temperature" id="temperature"></h2>
