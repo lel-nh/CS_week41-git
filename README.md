@@ -17,12 +17,17 @@ Here is the list of the element you need to do the same as me :
 My ESP8266 allow the control of the motor and the led, and read the data from the thermometer.
 
 Please see the picture of the circuit: <br> 
-<img src="circuit1.png" alt="My super circuit (:" width="400" height="300">/><br> 
-<img src="circuit2.png" alt="My super circuit, by side !" width="400" height="300"> />
+<div style="text-align: center;">
+  <img src="circuit1.png" alt="My super circuit (:" width="400" style="height: auto;/><br> 
+  <img src="circuit2.png" alt="My super circuit, by side !" width="400"style="height: auto; />
+</div>
+
 
 For my site I wanted something simple so that what I have imagined: <br> 
-<img src="drawing1.png" alt="My super website (:" width="400" height="300">/><br> 
-<img src="drawing2.png" alt="My super website, for phone !" width="400" height="300">/>
+<div style="text-align: center;">
+  <img src="drawing1.png" alt="My super website (:" width="400" style="height: auto;/><br> 
+  <img src="drawing2.png" alt="My super website, for phone !" width="400" style="height: auto;/>
+</div>
 
 Please find here the link of my figma file with graphic chart, site map and site idealisation.<br> 
 [Figma](https://www.figma.com/design/Lt0ygBrPFi1SfbUWPDrDdS/webworkshop_cs_wk41?node-id=0-1&t=xhVR3v7xTgCsAmBN-1)
