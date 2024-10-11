@@ -13,10 +13,11 @@ const char* password = "*c.r4UV@VfPn_0";
 OneWire oneWire(ds18b20Pin);
 DallasTemperature sensors(&oneWire);
 
-AsyncWebServer server(80);
 WebSocketsServer webSocket = WebSocketsServer(81);
 
 const int motorPin = D2; //pin pour le moteaur
+const int ledPinBleu = D3;
+const int ledPinRouge = D4;
 
 void setup() {
     Serial.begin(115200);
@@ -33,13 +34,13 @@ void setup() {
 
     pinMode(motorPin, OUTPUT);
     digitalWrite(motorPin, LOW);
+    pinMode(ledPinBleu, OUTPUT);
+    digitalWrite(ledPinBleu, LOW);
+    pinMode(ledPinRouge, OUTPUT);
+    digitalWrite(ledPinRouge, LOW);
 
     webSocket.onEvent(webSocketEvent);
     webSocket.begin();
-
-    server.on("/", HTTP_GET, [](AsyncWebServerRequest *request) {
-        request->send(SPIFFS, "/index.html", "text/html");
-    });
     
 
     server.begin();
@@ -51,7 +52,7 @@ void loop() {
     float temperatureC = sensors.getTempCByIndex(0);
     String tempMessage = String("{\"temperature\":") + temperatureC + "}";
     webSocket.broadcastTXT(tempMessage);
-    delay(1000);
+    delay(100);
 }
 
 void webSocketEvent(uint8_t num, WStype_t type, uint8_t * payload, size_t length) {
@@ -72,6 +73,17 @@ void webSocketEvent(uint8_t num, WStype_t type, uint8_t * payload, size_t length
             digitalWrite(motorPin, HIGH); 
         } else if (String(command) == "STOP") {
             digitalWrite(motorPin, LOW);
+        }
+
+        if (String(command) == "BLUE") {
+            digitalWrite(ledPinBleu, HIGH); 
+        } else if (String(command) == "RED") {
+            digitalWrite(ledPinRouge, HIGH); 
+        }
+        else if (String(command)=="OFF"){
+            digitalWrite(ledPinRouge, LOW);
+            digitalWrite(ledPinBleu, LOW);
+
         }
     }
 }

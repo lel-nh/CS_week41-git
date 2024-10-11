@@ -20,6 +20,8 @@
             connection.send(JSON.stringify(message));
         
             if (command === 'Connected to WebSocket') {
+                const lamp = document.getElementById('lamp');
+                lamp.style.visibility = 'visible';
                 const action = document.getElementById('action');
                 action.style.visibility = 'visible';
                 const connec = document.getElementById('connec');
@@ -48,8 +50,13 @@
             
             <div class="action" id="action">
                 
-            <button onclick="control('FORWARD')" class="btnTurn" id="btnTurn"> <img src="/rotate_left.png" alt="Logo" class="logo"></a>
-            <button onclick="control('STOP')" class="btnStop">stop</a>
+            <button onclick="control('FORWARD')" class="btnTurn" id="btnTurn"> <img src="/rotate_left.png" alt="Logo" class="logo"></button>
+            <button onclick="control('STOP')" class="btnStop">stop</button>
+        </div>
+        <div class="lamp" id="lamp">
+        <button onclick="control('BLUE')" class="btnblue"> <img src="/flashblue.png" alt="Logo" class="logo"></button>
+        <button onclick="control('RED')" class="btnred"> <img src="/flashred.png" alt="Logo" class="logo"></button>
+        <button onclick="control('OFF')" class="btnoff"> <img src="/flashoff.png" alt="Logo" class="logo"></button>
         </div>
         <h2 class="temperature" id="temperature"></h2>
     </div>
