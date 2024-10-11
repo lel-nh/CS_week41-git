@@ -21,18 +21,13 @@ Please see the picture of the circuit: <br>
 <img src="circuit2.png" alt="My super circuit, by side !" />
 
 For my site I wanted something simple so that what I have imagined: <br> 
-<iframe src="sitemampaper.pdf" width="600" height="500">
-  This browser does not support embedded PDFs. Please download the PDF to view it: 
-  <a href="path/to/document.pdf">Download PDF</a>.
-</iframe>
+<img src="drawing1.png" alt="My super website (:" /><br> 
+<img src="drawing1.png" alt="My super website, for phone !" />
 
 Please find here the link of my figma file with graphic chart, site map and site idealisation.<br> 
 [Figma](https://www.figma.com/design/Lt0ygBrPFi1SfbUWPDrDdS/webworkshop_cs_wk41?node-id=0-1&t=xhVR3v7xTgCsAmBN-1)
 
 
-Please find here the video with the final version (: <br> 
-<video width="600" controls>
-  <source src="video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+Please find here the video with the final version (:, link to youtube ! <br> 
+[Watch the video](https://youtu.be/f8r0Wz3r05c)
 
