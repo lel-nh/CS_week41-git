@@ -1,5 +1,4 @@
 #include <ESP8266WiFi.h>
-#include <ESPAsyncWebServer.h>
 #include <WebSocketsServer.h>
 #include <ArduinoJson.h>
 #include <OneWire.h>
