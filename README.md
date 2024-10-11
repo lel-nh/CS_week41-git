@@ -8,9 +8,8 @@ Here is the list of the element you need to do the same as me :
 - DC motor
 - 2 kohm resistor
 - 4.7 kohm resistor
-- 100 ohm resistor
-- led
-- 1 nF condensator
+- 2x 100 ohm resistor
+- 2x led
 - 2N2222 NPN transistor
 - DS18B20 (thermometer)
 
@@ -38,5 +37,5 @@ Please find here the link of my figma file with graphic chart, site map and site
 
 
 Please find here the video with the final version (:, link to youtube ! <br> 
-[Watch the video](https://youtu.be/f8r0Wz3r05c)
+[Watch the video](https://youtu.be/-d-WIFVORM8)
 
