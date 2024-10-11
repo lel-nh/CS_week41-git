@@ -22,10 +22,12 @@ Please see the picture of the circuit: <br>
 </div>
     <br> 
 <div style="text-align: center;">
- <img src="circuit2.png" alt="My super circuit, by side !" width="400"style="height: auto; />
+ <img src="circuit2.png" alt="My super circuit, by side !" width="400"style="height: auto;/>
 </div>
-     <br> 
-  
+<br> 
+  <br> 
+<br> 
+
 For my site I wanted something simple so that what I have imagined: <br> 
 <div style="text-align: center;">
   <img src="drawing1.png" alt="My super website (:" width="400" style="width: 400px; height: auto; transform: rotate(90deg);/><br> 
@@ -34,6 +36,8 @@ For my site I wanted something simple so that what I have imagined: <br>
   <img src="drawing2.png" alt="My super website, for phone !" style="width: 400px; height: auto; transform: rotate(90deg);/>
 </div>
 
+<br> 
+<br> 
 <br> 
 
 Please find here the link of my figma file with graphic chart, site map and site idealisation.
