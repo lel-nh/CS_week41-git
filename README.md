@@ -25,8 +25,8 @@ Please see the picture of the circuit: <br>
 <br> 
 
 For my site I wanted something simple so that what I have imagined: <br> 
-  <img src="drawing1.png" alt="My super website (:" width="400" ><br> 
-  <img src="drawing2.png" alt="My super website, for phone !">
+  <img src="drawing2.png" alt="My super website (:" width="400" ><br> 
+  <img src="drawing1.png" alt="My super website, for phone !">
 
 <br> 
 <br> 
