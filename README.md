@@ -28,14 +28,16 @@ Please see the picture of the circuit: <br>
   
 For my site I wanted something simple so that what I have imagined: <br> 
 <div style="text-align: center;">
-  <img src="drawing1.png" alt="My super website (:" width="400" style="height: auto;/><br> 
+  <img src="drawing1.png" alt="My super website (:" width="400" style="width: 400px; height: auto; transform: rotate(90deg);/><br> 
 </div>
 <div style="text-align: center;">
-  <img src="drawing2.png" alt="My super website, for phone !" width="400" style="height: auto;/>
+  <img src="drawing2.png" alt="My super website, for phone !" style="width: 400px; height: auto; transform: rotate(90deg);/>
 </div>
 
+<br> 
 
-Please find here the link of my figma file with graphic chart, site map and site idealisation.<br> 
+Please find here the link of my figma file with graphic chart, site map and site idealisation.
+<br> 
 [Figma](https://www.figma.com/design/Lt0ygBrPFi1SfbUWPDrDdS/webworkshop_cs_wk41?node-id=0-1&t=xhVR3v7xTgCsAmBN-1)
 
 
