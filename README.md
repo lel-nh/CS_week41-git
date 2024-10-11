@@ -17,16 +17,16 @@ Here is the list of the element you need to do the same as me :
 My ESP8266 allow the control of the motor and the led, and read the data from the thermometer.
 
 Please see the picture of the circuit: <br> 
-  <img src="circuit1.png" alt="My super circuit (:" width="400" style="height: auto;>
+  <img src="circuit1.png" alt="My super circuit (:" width="400" >
 
- <img src="circuit2.png" alt="My super circuit, by side !" width="400"style="height: auto;>
+ <img src="circuit2.png" alt="My super circuit, by side !">
 <br> 
   <br> 
 <br> 
 
 For my site I wanted something simple so that what I have imagined: <br> 
-  <img src="drawing1.png" alt="My super website (:" width="400" style="width: 400px; height: auto; transform: rotate(90deg);><br> 
-  <img src="drawing2.png" alt="My super website, for phone !" style="width: 400px; height: auto; transform: rotate(90deg);>
+  <img src="drawing1.png" alt="My super website (:" width="400" ><br> 
+  <img src="drawing2.png" alt="My super website, for phone !">
 
 <br> 
 <br> 
